@@ -40,3 +40,25 @@
 .glyphicon-remove {
   color : #CD2626
 }
+
+.highlight {
+  background-color: yellow;
+}
+
+
+
+/* if (sentenceIndex >= sentences.length - 1 && letterIndex >= currentSentence.length) {
+  $('#feedback').empty();
+  $('#target-letter').empty();
+  Swal.fire('Game Over!')
+  // window.location.reload
+} else if (letterIndex >= currentSentence.length) {
+  sentenceIndex++;
+  currentSentence = sentences[sentenceIndex];
+  $('#sentence').text(currentSentence);
+  letterIndex = 0;
+  currentLetter = currentSentence[letterIndex];
+  $('#target-letter').text(currentLetter);
+  $('#yellow-block').css('margin-left', '-15px');
+  $('#feedback').empty();
+} */
